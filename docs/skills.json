@@ -1,0 +1,2016 @@
+{
+  "skills": [
+    {
+      "name": "ab-test-setup",
+      "dir_name": "ab-test-setup",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"conversion experiment,\" \"statistical significance,\" or \"test this.\" For trackin",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ad-creative",
+      "dir_name": "ad-creative",
+      "description": "When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' This i",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "agent-browser",
+      "dir_name": "agent-browser",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Also use for web searching and reading web pages. Triggers incl",
+      "triggers": [],
+      "template": "URL: [URL_TO_VISIT]\nAction: [search / extract data / fill form / click through / screenshot]\nDetails: [WHAT_TO_DO]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "agent-designer",
+      "dir_name": "agent-designer",
+      "description": "Agent Designer - Multi-Agent System Architecture",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Agent Designer - Multi-Agent System Architecture Toolkit\n\n**Tier:** POWERFUL  \n**Category:** Engineering  \n**Tags:** AI agents, architecture, system design, orchestration, multi-agent systems\n\nA comprehensive toolkit for designing, architecting, and evaluating multi-agent systems. Provides structured approaches to agent architecture patterns, tool design principles, communication strategies, and performance evaluation frameworks.\n\n## Overview\n\nThe Agent Designer skill includes three core components:\n\n1. **Agent Planner** (`agent_planner.py`) - Designs multi-agent system architectures\n2. **Tool Schema Generator** (`tool_schema_generator.py`) - Creates structured tool schemas\n3. **Agent Evaluator** (`agent_evaluator.py`) - Evaluates system performance and identifies optimizations\n\n## Quick Start\n\n### 1. Design a Multi-Agent Architecture\n\n```bash\n# Use sample requirements or create your own\npython agent_planner.py assets/sample_system_requirements.json -o my_architecture\n\n# This generates:\n# - my_architecture.json (complete architecture)\n# - my_architecture_diagram.mmd (Mermaid diagram)\n# - my_architecture_roadmap.json (implementation plan)\n```\n\n### 2. Generate Tool Schemas\n\n```bash\n# Use sample tool descriptions or create your own\npython tool_schema_generator.py assets/sample_tool_descriptions.json -o my_tools\n\n# This generates:\n# - my_tools.json (complete schemas)\n# - my_tools_openai.json (OpenAI format)\n# - my_tools_anthropic.json (Anthropic format)\n# - my_tools_validation.json (validation rules)\n# - my_tools_examples.json (usage examples)\n```\n\n### 3. Evaluate System Performance\n\n```bash\n# Use sample execution logs or your own\npython agent_evaluator.py assets/sample_execution_logs.json -o evaluation\n\n# This generates:\n# - evaluation.json (complete report)\n# - evaluation_summary.json (executive summary)\n# - evaluation_recommendations.json (optimization suggestions)\n# - evaluation_errors.json (error analysis)\n```\n\n## Detailed Usage\n\n### Agent Planner\n\nThe Agent Planner designs multi-agent architectures based on system requirements.\n\n#### Input Format\n\nCreate a JSON file with system requirements:\n\n```json\n{\n  \"goal\": \"Your system's primary objective\",\n  \"description\": \"Detailed system description\",\n  \"tasks\": [\"List\", \"of\", \"required\", \"tasks\"],\n  \"constraints\": {\n    \"max_response_time\": 30000,\n    \"budget_per_task\": 1.0,\n    \"quality_threshold\": 0.9\n  },\n  \"team_size\": 6,\n  \"performance_requirements\": {\n    \"high_throughput\": true,\n    \"fault_tolerance\": true,\n    \"low_latency\": false\n  },\n  \"safety_requirements\": [\n    \"Input validation and sanitization\",\n    \"Output content filtering\"\n  ]\n}\n```\n\n#### Command Line Options\n\n```bash\npython agent_planner.py <input_file> [OPTIONS]\n\nOptions:\n  -o, --output PREFIX    Output file prefix (default: agent_architecture)\n  --format FORMAT        Output format: json, both (default: both)\n```\n\n#### Output Files\n\n- **Architecture JSON**: Complete system design with agents, communication topology, and scaling ",
+      "source": "marketplace"
+    },
+    {
+      "name": "agent-protocol",
+      "dir_name": "agent-protocol",
+      "description": "Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "agent-workflow-designer",
+      "dir_name": "agent-workflow-designer",
+      "description": "Agent Workflow Designer",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "agile-product-owner",
+      "dir_name": "agile-product-owner",
+      "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use for writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing bac",
+      "triggers": [
+        "write user story",
+        "create acceptance criteria",
+        "plan sprint",
+        "estimate story points",
+        "break down epic",
+        "prioritize backlog",
+        "sprint planning",
+        "INVEST criteria",
+        "Given When Then",
+        "user story template",
+        "sprint capacity",
+        "velocity tracking"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ai-seo",
+      "dir_name": "ai-seo",
+      "description": "Optimize content to get cited by AI search engines \u2014 ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use when you want your content to appear in AI-generated answers, not just ranked in blue links. Triggers: 'optimize for AI search', 'get cited by ChatGPT', 'AI Overviews', 'Perple",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "analytics-tracking",
+      "dir_name": "analytics-tracking",
+      "description": "Set up, audit, and debug analytics tracking implementation \u2014 GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keywords: ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "api-design-reviewer",
+      "dir_name": "api-design-reviewer",
+      "description": "API Design Reviewer",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "api-test-suite-builder",
+      "dir_name": "api-test-suite-builder",
+      "description": "API Test Suite Builder",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "app-store-optimization",
+      "dir_name": "app-store-optimization",
+      "description": "App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, app s",
+      "triggers": [
+        "ASO",
+        "app store optimization",
+        "app store ranking",
+        "app keywords",
+        "app metadata",
+        "play store optimization",
+        "app store listing",
+        "improve app rankings",
+        "app visibility",
+        "app store SEO",
+        "mobile app marketing",
+        "app conversion rate"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "# How to Use the App Store Optimization Skill\n\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you help me optimize my app's presence on the App Store and Google Play?\n\n## Example Invocations\n\n### Keyword Research\n\n**Example 1: Basic Keyword Research**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you research the best keywords for my productivity app? I'm targeting professionals who need task management and team collaboration features.\n```\n\n**Example 2: Competitive Keyword Analysis**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you analyze keywords that Todoist, Asana, and Monday.com are using? I want to find gaps and opportunities for my project management app.\n```\n\n### Metadata Optimization\n\n**Example 3: Optimize App Title**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you optimize my app title for the Apple App Store? My app is called \"TaskFlow\" and I want to rank for \"task manager\", \"productivity\", and \"team collaboration\". The title needs to be under 30 characters.\n```\n\n**Example 4: Full Metadata Package**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you create optimized metadata for both Apple App Store and Google Play Store? Here's my app info:\n- Name: TaskFlow\n- Category: Productivity\n- Key features: AI task prioritization, team collaboration, calendar integration\n- Target keywords: task manager, productivity app, team tasks\n```\n\n### Competitor Analysis\n\n**Example 5: Analyze Top Competitors**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you analyze the ASO strategies of the top 5 productivity apps in the App Store? I want to understand their title strategies, keyword usage, and visual asset approaches.\n```\n\n**Example 6: Identify Competitive Gaps**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you compare my app's ASO performance against competitors and identify what I'm missing? Here's my current metadata: [paste metadata]\n```\n\n### ASO Score Calculation\n\n**Example 7: Calculate Overall ASO Health**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you calculate my app's ASO health score? Here are my metrics:\n- Average rating: 4.2 stars\n- Total ratings: 3,500\n- Keywords in top 10: 3\n- Keywords in top 50: 12\n- Conversion rate: 4.5%\n```\n\n**Example 8: Identify Improvement Areas**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. My ASO score is 62/100. Can you tell me which areas I should focus on first to improve my rankings and downloads?\n```\n\n### A/B Testing\n\n**Example 9: Plan Icon Test**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. I want to A/B test two different app icons. My current conversion rate is 5%. Can you help me plan the test, calculate required sample size, and determine how long to run it?\n```\n\n**Example 10: Analyze Test Results**\n```\nHey Claude\u2014I just added the \"app-store-optimization\" skill. Can you analyze my A/B test resu",
+      "source": "marketplace"
+    },
+    {
+      "name": "article-builder",
+      "dir_name": "article-builder",
+      "description": "Build articles as Markdown + self-contained HTML with locally downloaded images. Use for any task requiring written content delivery in both formats. Covers image sourcing, downloading, embedding, and file output conventions.",
+      "triggers": [],
+      "template": "Topic: [TOPIC]\nTarget length: [1000+ words]\nStyle: [informative / opinion / tutorial / listicle]\nImages: [yes / no]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "atlassian-admin",
+      "dir_name": "atlassian-admin",
+      "description": "Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security, integrations, system configuration, and org-wide governance. Use when asked to add users to Jira, change Confluence permissions, configure access control, updat",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "atlassian-templates",
+      "dir_name": "atlassian-templates",
+      "description": "Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated content",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "aws-solution-architect",
+      "dir_name": "aws-solution-architect",
+      "description": "Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimizatio",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "board-deck-builder",
+      "dir_name": "board-deck-builder",
+      "description": "Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "board-meeting",
+      "dir_name": "board-meeting",
+      "description": "Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:board, calls a b",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "board-prep",
+      "dir_name": "board-prep",
+      "description": "/em -board-prep \u2014 Board Meeting Preparation",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "book-processor",
+      "dir_name": "book-processor",
+      "description": "Process books (PDF/EPUB) through extraction and analysis pipelines. Supports wisdom extraction, coding guidelines, skill generation, novel summaries, audiobook scripts, and voice capture. Use for any task involving book reading, summarization, or content extraction.",
+      "triggers": [],
+      "template": "File: [PATH_TO_BOOK]\nMode: [wisdom / coding-guidelines / skill-gen / summary / audiobook / voice-capture]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "brand-guidelines",
+      "dir_name": "brand-guidelines",
+      "description": "When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,' 'brand colors,' 'typography,' 'logo usage,' 'brand voice,' 'visual identity,' 'tone of voice,' 'brand standards,' 'style guide,' 'brand consistency,' or",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "browserstack",
+      "dir_name": "browserstack",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "campaign-analytics",
+      "dir_name": "campaign-analytics",
+      "description": "Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across c",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "capa-officer",
+      "dir_name": "capa-officer",
+      "description": "CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use for CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CA",
+      "triggers": [
+        "CAPA investigation",
+        "root cause analysis",
+        "5 Why analysis",
+        "fishbone diagram",
+        "corrective action",
+        "preventive action",
+        "effectiveness verification",
+        "CAPA metrics",
+        "nonconformance investigation",
+        "quality issue investigation",
+        "CAPA tracking",
+        "audit finding CAPA"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ceo-advisor",
+      "dir_name": "ceo-advisor",
+      "description": "Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy, preparing board presentations, managing investors, developing organizational culture, making executive decisions, fundraising, or when user mentions CEO, s",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "cfo-advisor",
+      "dir_name": "cfo-advisor",
+      "description": "Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or wh",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "challenge",
+      "dir_name": "challenge",
+      "description": "/em -challenge \u2014 Pre-Mortem Plan Analysis",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "change-management",
+      "dir_name": "change-management",
+      "description": "Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management. Handles process changes, org restructures, strategy pivots, and culture changes. Use when announcing a reorg, swit",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "changelog-generator",
+      "dir_name": "changelog-generator",
+      "description": "Changelog Generator",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Changelog Generator\n\nAutomates release notes from Conventional Commits with Keep a Changelog output and strict commit linting. Designed for CI-friendly release workflows.\n\n## Quick Start\n\n```bash\n# Generate entry from git range\npython3 scripts/generate_changelog.py \\\n  --from-tag v1.2.0 \\\n  --to-tag v1.3.0 \\\n  --next-version v1.3.0 \\\n  --format markdown\n\n# Lint commit subjects\npython3 scripts/commit_linter.py --from-ref origin/main --to-ref HEAD --strict --format text\n```\n\n## Included Tools\n\n- `scripts/generate_changelog.py`: parse commits, infer semver bump, render markdown/JSON, optional file prepend\n- `scripts/commit_linter.py`: validate commit subjects against Conventional Commits rules\n\n## References\n\n- `references/ci-integration.md`\n- `references/changelog-formatting-guide.md`\n- `references/monorepo-strategy.md`\n\n## Installation\n\n### Claude Code\n\n```bash\ncp -R engineering/changelog-generator ~/.claude/skills/changelog-generator\n```\n\n### OpenAI Codex\n\n```bash\ncp -R engineering/changelog-generator ~/.codex/skills/changelog-generator\n```\n\n### OpenClaw\n\n```bash\ncp -R engineering/changelog-generator ~/.openclaw/skills/changelog-generator\n```\n",
+      "source": "marketplace"
+    },
+    {
+      "name": "chief-of-staff",
+      "dir_name": "chief-of-staff",
+      "description": "C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "chro-advisor",
+      "dir_name": "chro-advisor",
+      "description": "People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans, designing comp frameworks, restructuring teams, managing performance, building culture, or when user mentions CHRO, HR, people strategy, talent, headc",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "churn-prevention",
+      "dir_name": "churn-prevention",
+      "description": "Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn. Trigger keywords: cancel flow, churn reduction, save",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ci-cd-pipeline-builder",
+      "dir_name": "ci-cd-pipeline-builder",
+      "description": "CI/CD Pipeline Builder",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# CI/CD Pipeline Builder\n\nDetects your repository stack and generates practical CI pipeline templates for GitHub Actions and GitLab CI. Designed as a fast baseline you can extend with deployment controls.\n\n## Quick Start\n\n```bash\n# Detect stack\npython3 scripts/stack_detector.py --repo . --format json > stack.json\n\n# Generate GitHub Actions workflow\npython3 scripts/pipeline_generator.py \\\n  --input stack.json \\\n  --platform github \\\n  --output .github/workflows/ci.yml \\\n  --format text\n```\n\n## Included Tools\n\n- `scripts/stack_detector.py`: repository signal detection with JSON/text output\n- `scripts/pipeline_generator.py`: generate GitHub/GitLab CI YAML from detection payload\n\n## References\n\n- `references/github-actions-templates.md`\n- `references/gitlab-ci-templates.md`\n- `references/deployment-gates.md`\n\n## Installation\n\n### Claude Code\n\n```bash\ncp -R engineering/ci-cd-pipeline-builder ~/.claude/skills/ci-cd-pipeline-builder\n```\n\n### OpenAI Codex\n\n```bash\ncp -R engineering/ci-cd-pipeline-builder ~/.codex/skills/ci-cd-pipeline-builder\n```\n\n### OpenClaw\n\n```bash\ncp -R engineering/ci-cd-pipeline-builder ~/.openclaw/skills/ci-cd-pipeline-builder\n```\n",
+      "source": "marketplace"
+    },
+    {
+      "name": "ciso-advisor",
+      "dir_name": "ciso-advisor",
+      "description": "Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selectin",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "clickup",
+      "dir_name": "clickup-api-1.0.3",
+      "description": "|",
+      "triggers": [
+        "MATON_API_KEY"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "clickup",
+      "dir_name": "clickup-skill-1.1.1",
+      "description": "Enterprise-grade ClickUp project management integration with advanced reporting, multi-workspace support, and client/project tracking. Core capabilities: (1) Multi-workspace task management with automatic workspace switching, (2) Advanced analytics & reporting (task counts, assignee breakdowns, stat",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "clickup-cli",
+      "dir_name": "clickup-cli",
+      "description": "Deterministic ClickUp task operations via CLI. Use for fetching tasks, updating status, adding comments, and validating workflow transitions. All commands output valid JSON \u2014 no LLM reasoning required.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "clickup-workflow",
+      "dir_name": "clickup-workflow",
+      "description": "Orchestrate ClickUp project workflows end-to-end. Automates task checking, status transitions, agent assignments, heartbeat reporting, and state machine enforcement. Sits on top of clickup-skill for API operations. Ideal for autonomous task management and squad coordination.",
+      "triggers": [],
+      "template": "Action: [check tasks / create task / update status / add comment]\nDetails: [SPECIFICS]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "cmo-advisor",
+      "dir_name": "cmo-advisor",
+      "description": "Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or when u",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "code-reviewer",
+      "dir_name": "code-reviewer",
+      "description": "Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review chec",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "codebase-onboarding",
+      "dir_name": "codebase-onboarding",
+      "description": "Codebase Onboarding",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "cold-email",
+      "dir_name": "cold-email",
+      "description": "When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'email ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "company-os",
+      "dir_name": "company-os",
+      "description": "The meta-framework for how a company runs \u2014 the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selectin",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "competitive-intel",
+      "dir_name": "competitive-intel",
+      "description": "Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use when analyzing competitors, building sales battlecards, tracking market moves, positioning against alternatives, or when user mentions competitive intelligence, competitive analysis, competitor",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "competitive-teardown",
+      "dir_name": "competitive-teardown",
+      "description": "Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media into structured competitive intelligence. Produces feature comparison matrices scored across 12 dimensions, SWOT analyses, positioning maps, UX audits, p",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "competitor-alternatives",
+      "dir_name": "competitor-alternatives",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'switch fr",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "confluence-expert",
+      "dir_name": "confluence-expert",
+      "description": "Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build or ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "content-creator",
+      "dir_name": "content-creator",
+      "description": "Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or create a",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "content-humanizer",
+      "dir_name": "content-humanizer",
+      "description": "Makes AI-generated content sound genuinely human \u2014 not just cleaned up, but alive. Use when content feels robotic, uses too many AI clich\u00e9s, lacks personality, or reads like it was written by committee. Triggers: 'this sounds like AI', 'make it more human', 'add personality', 'it feels generic', 'so",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "content-production",
+      "dir_name": "content-production",
+      "description": "Full content production pipeline \u2014 takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT for c",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "content-strategy",
+      "dir_name": "content-strategy",
+      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \\\"content strategy,\\\" \\\"what should I write about,\\\" \\\"content ideas,\\\" \\\"blog strategy,\\\" \\\"topic clusters,\\\" or \\\"content planning.\\\" For writing indiv",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "context-engine",
+      "dir_name": "context-engine",
+      "description": "Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "contract-and-proposal-writer",
+      "dir_name": "contract-and-proposal-writer",
+      "description": "Contract & Proposal Writer",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "coo-advisor",
+      "dir_name": "coo-advisor",
+      "description": "Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, proce",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "copy-editing",
+      "dir_name": "copy-editing",
+      "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through m",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "copywriting",
+      "dir_name": "copywriting",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \\\"write copy for,\\\" \\\"improve this copy,\\\" \\\"rewrite this page,\\\" \\\"marketing copy,\\\" \\\"headline",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "coverage",
+      "dir_name": "coverage",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "cpo-advisor",
+      "dir_name": "cpo-advisor",
+      "description": "Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design. Use when setting product vision, managing a product portfolio, measuring PMF, designing product teams, prioritizing at the portfolio level, reporting to the board on product, or ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "cro-advisor",
+      "dir_name": "cro-advisor",
+      "description": "Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief rev",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "cs-onboard",
+      "dir_name": "cs-onboard",
+      "description": "Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "cto-advisor",
+      "dir_name": "cto-advisor",
+      "description": "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, technica",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "culture-architect",
+      "dir_name": "culture-architect",
+      "description": "Build, measure, and evolve company culture as operational behavior \u2014 not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health,",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "customer-success-manager",
+      "dir_name": "customer-success-manager",
+      "description": "Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, upsell",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "database-designer",
+      "dir_name": "database-designer",
+      "description": "Database Designer - POWERFUL Tier Skill",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Database Designer - POWERFUL Tier Skill\n\nA comprehensive database design and analysis toolkit that provides expert-level schema analysis, index optimization, and migration generation capabilities for modern database systems.\n\n## Features\n\n### \ud83d\udd0d Schema Analyzer\n- **Normalization Analysis**: Automated detection of 1NF through BCNF violations\n- **Data Type Optimization**: Identifies antipatterns and inappropriate types\n- **Constraint Analysis**: Finds missing foreign keys, unique constraints, and checks\n- **ERD Generation**: Creates Mermaid diagrams from DDL or JSON schema\n- **Naming Convention Validation**: Ensures consistent naming patterns\n\n### \u26a1 Index Optimizer  \n- **Missing Index Detection**: Identifies indexes needed for query patterns\n- **Composite Index Design**: Optimizes column ordering for maximum efficiency\n- **Redundancy Analysis**: Finds duplicate and overlapping indexes\n- **Performance Modeling**: Estimates selectivity and query performance impact\n- **Covering Index Recommendations**: Eliminates table lookups\n\n### \ud83d\ude80 Migration Generator\n- **Zero-Downtime Migrations**: Implements expand-contract patterns\n- **Schema Evolution**: Handles column changes, table renames, constraint updates\n- **Data Migration Scripts**: Automated data transformation and validation\n- **Rollback Planning**: Complete reversal capabilities for all changes\n- **Execution Orchestration**: Dependency-aware migration ordering\n\n## Quick Start\n\n### Prerequisites\n- Python 3.7+ (no external dependencies required)\n- Database schema in SQL DDL format or JSON\n- Query patterns (for index optimization)\n\n### Installation\n```bash\n# Clone or download the database-designer skill\ncd engineering/database-designer/\n\n# Make scripts executable\nchmod +x *.py\n```\n\n## Usage Examples\n\n### Schema Analysis\n\n**Analyze SQL DDL file:**\n```bash\npython schema_analyzer.py --input assets/sample_schema.sql --output-format text\n```\n\n**Generate ERD diagram:**\n```bash\npython schema_analyzer.py --input assets/sample_schema.sql --generate-erd --output analysis.txt\n```\n\n**JSON schema analysis:**\n```bash\npython schema_analyzer.py --input assets/sample_schema.json --output-format json --output results.json\n```\n\n### Index Optimization\n\n**Basic index analysis:**\n```bash\npython index_optimizer.py --schema assets/sample_schema.json --queries assets/sample_query_patterns.json\n```\n\n**High-priority recommendations only:**\n```bash\npython index_optimizer.py --schema assets/sample_schema.json --queries assets/sample_query_patterns.json --min-priority 2\n```\n\n**JSON output with existing index analysis:**\n```bash\npython index_optimizer.py --schema assets/sample_schema.json --queries assets/sample_query_patterns.json --format json --analyze-existing\n```\n\n### Migration Generation\n\n**Generate migration between schemas:**\n```bash\npython migration_generator.py --current assets/current_schema.json --target assets/target_schema.json\n```\n\n**Zero-downtime migration:**\n```bash\npython migration_generator.py --current current.jso",
+      "source": "marketplace"
+    },
+    {
+      "name": "database-schema-designer",
+      "dir_name": "database-schema-designer",
+      "description": "Database Schema Designer",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "decision-logger",
+      "dir_name": "decision-logger",
+      "description": "Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by the",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "dependency-auditor",
+      "dir_name": "dependency-auditor",
+      "description": "Dependency Auditor",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Dependency Auditor\n\nA comprehensive toolkit for analyzing, auditing, and managing dependencies across multi-language software projects. This skill provides vulnerability scanning, license compliance checking, and upgrade path planning with zero external dependencies.\n\n## Overview\n\nThe Dependency Auditor skill consists of three main Python scripts that work together to provide complete dependency management capabilities:\n\n- **`dep_scanner.py`**: Vulnerability scanning and dependency analysis\n- **`license_checker.py`**: License compliance and conflict detection  \n- **`upgrade_planner.py`**: Upgrade path planning and risk assessment\n\n## Features\n\n### \ud83d\udd0d Vulnerability Scanning\n- Multi-language dependency parsing (JavaScript, Python, Go, Rust, Ruby, Java)\n- Built-in vulnerability database with common CVE patterns\n- CVSS scoring and risk assessment\n- JSON and human-readable output formats\n- CI/CD integration support\n\n### \u2696\ufe0f License Compliance\n- Comprehensive license classification and compatibility analysis\n- Automatic conflict detection between project and dependency licenses\n- Risk assessment for commercial usage and distribution\n- Compliance scoring and reporting\n\n### \ud83d\udcc8 Upgrade Planning\n- Semantic versioning analysis with breaking change prediction\n- Risk-based upgrade prioritization\n- Phased migration plans with rollback procedures\n- Security-focused upgrade recommendations\n\n## Installation\n\nNo external dependencies required! All scripts use only Python standard library.\n\n```bash\n# Clone or download the dependency-auditor skill\ncd engineering/dependency-auditor/scripts\n\n# Make scripts executable\nchmod +x dep_scanner.py license_checker.py upgrade_planner.py\n```\n\n## Quick Start\n\n### 1. Scan for Vulnerabilities\n\n```bash\n# Basic vulnerability scan\npython dep_scanner.py /path/to/your/project\n\n# JSON output for automation\npython dep_scanner.py /path/to/your/project --format json --output scan_results.json\n\n# Fail CI/CD on high-severity vulnerabilities\npython dep_scanner.py /path/to/your/project --fail-on-high\n```\n\n### 2. Check License Compliance\n\n```bash\n# Basic license compliance check\npython license_checker.py /path/to/your/project\n\n# Strict policy enforcement\npython license_checker.py /path/to/your/project --policy strict\n\n# Use existing dependency inventory\npython license_checker.py /path/to/project --inventory scan_results.json --format json\n```\n\n### 3. Plan Dependency Upgrades\n\n```bash\n# Generate upgrade plan from dependency inventory\npython upgrade_planner.py scan_results.json\n\n# Custom timeline and risk filtering\npython upgrade_planner.py scan_results.json --timeline 60 --risk-threshold medium\n\n# Security updates only\npython upgrade_planner.py scan_results.json --security-only --format json\n```\n\n## Detailed Usage\n\n### Dependency Scanner (`dep_scanner.py`)\n\nThe dependency scanner parses project files to extract dependencies and check them against a built-in vulnerability database.\n\n#### Supported File Formats\n- **JavaScript/Node.js**: package.jso",
+      "source": "marketplace"
+    },
+    {
+      "name": "elevenlabs-tts",
+      "dir_name": "elevenlabs",
+      "description": "High-quality text-to-speech using ElevenLabs API with Phil's cloned voice. Use for narration, audio articles, and premium single-voice content. CLI handles voice listing, speech generation, credit tracking, and model selection.",
+      "triggers": [],
+      "template": "Text: [TEXT_TO_SPEAK]\nVoice: [Phil / default]\nOutput: [path or \"send via Telegram\"]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "email-sequence",
+      "dir_name": "email-sequence",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "email-template-builder",
+      "dir_name": "email-template-builder",
+      "description": "Email Template Builder",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "env-secrets-manager",
+      "dir_name": "env-secrets-manager",
+      "description": "Env & Secrets Manager",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "executive-mentor",
+      "dir_name": "executive-mentor",
+      "description": "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or under",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "extract",
+      "dir_name": "extract",
+      "description": "Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "fda-consultant-specialist",
+      "dir_name": "fda-consultant-specialist",
+      "description": "FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QSR, premarket, predicate device, substantial equivalence, HIPA",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "financial-analyst",
+      "dir_name": "financial-analyst",
+      "description": "Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also appli",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "fix",
+      "dir_name": "fix",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "fleet-memory",
+      "dir_name": "fleet-memory",
+      "description": "Store and retrieve semantic memories across the fleet. Use when storing facts, searching knowledge, or recalling information.",
+      "triggers": [
+        "store memory",
+        "search memory",
+        "remember",
+        "recall"
+      ],
+      "template": "Action: [store / search / recall]\nContent: [WHAT_TO_STORE_OR_SEARCH_FOR]\nTags: [comma-separated tags]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "form-cro",
+      "dir_name": "form-cro",
+      "description": "When the user wants to optimize any form that is NOT signup/registration \u2014 including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "founder-coach",
+      "dir_name": "founder-coach",
+      "description": "Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "free-tool-strategy",
+      "dir_name": "free-tool-strategy",
+      "description": "When the user wants to build a free tool for marketing \u2014 lead generation, SEO value, or brand awareness. Use when they mention 'engineering as marketing,' 'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead gen tool,' 'build something for traffic,' 'interactive tool,",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "gdpr-dsgvo-expert",
+      "dir_name": "gdpr-dsgvo-expert",
+      "description": "GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests. Use for GDPR compliance assessments, privacy audits, data protection planning, DPIA generation, and data subject rights management.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "generate",
+      "dir_name": "generate",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "git-worktree-manager",
+      "dir_name": "git-worktree-manager",
+      "description": "Git Worktree Manager",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Git Worktree Manager\n\nProduction workflow for parallel branch development with isolated ports, env sync, and cleanup safety checks. This skill packages practical CLI tooling and operating guidance for multi-worktree teams.\n\n## Quick Start\n\n```bash\n# Create + prepare a worktree\npython scripts/worktree_manager.py \\\n  --repo . \\\n  --branch feature/api-hardening \\\n  --name wt-api-hardening \\\n  --base-branch main \\\n  --install-deps \\\n  --format text\n\n# Review stale worktrees\npython scripts/worktree_cleanup.py --repo . --stale-days 14 --format text\n```\n\n## Included Tools\n\n- `scripts/worktree_manager.py`: create/list-prep workflow, deterministic ports, `.env*` sync, optional dependency install\n- `scripts/worktree_cleanup.py`: stale/dirty/merged analysis with optional safe removal\n\nBoth support `--input <json-file>` and stdin JSON for automation.\n\n## References\n\n- `references/port-allocation-strategy.md`\n- `references/docker-compose-patterns.md`\n\n## Installation\n\n### Claude Code\n\n```bash\ncp -R engineering/git-worktree-manager ~/.claude/skills/git-worktree-manager\n```\n\n### OpenAI Codex\n\n```bash\ncp -R engineering/git-worktree-manager ~/.codex/skills/git-worktree-manager\n```\n\n### OpenClaw\n\n```bash\ncp -R engineering/git-worktree-manager ~/.openclaw/skills/git-worktree-manager\n```\n",
+      "source": "marketplace"
+    },
+    {
+      "name": "github",
+      "dir_name": "github-1.0.0",
+      "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "gog",
+      "dir_name": "gog",
+      "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+      "triggers": [],
+      "template": "Action: [search gmail / list events / search drive / read sheet / create doc]\nDetails: [SPECIFICS]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "google-ai",
+      "dir_name": "google-ai",
+      "description": "Google AI ecosystem for the fleet \u2014 NotebookLM, browser-based Gemini, Google Workspace AI. Triggers on mentions of Google AI, Gemini, or Google model questions.",
+      "triggers": [],
+      "template": "Action: [query gemini / create notebook / add sources / ask notebook]\nDetails: [SPECIFICS]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "hard-call",
+      "dir_name": "hard-call",
+      "description": "/em -hard-call \u2014 Framework for Decisions With No Good Options",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "humanize-ai-text",
+      "dir_name": "humanize-ai-text-1.0.0",
+      "description": "Humanize AI-generated text to bypass detection. This humanizer rewrites ChatGPT, Claude, and GPT content to sound natural and pass AI detectors like GPTZero, Turnitin, and Originality.ai. Based on Wikipedia's comprehensive \"Signs of AI Writing\" guide. Makes robotic AI writing undetectable and human-",
+      "triggers": [
+        "Read",
+        "Write",
+        "StrReplace",
+        "Shell",
+        "Glob"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "humanizer",
+      "dir_name": "humanizer-1.0.0",
+      "description": "|",
+      "triggers": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "AskUserQuestion"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "# Humanizer\n\nA Clawdbot skill that removes signs of AI-generated writing from text, making it sound more natural and human.\n\n## Installation\n\nInstall via ClawdHub:\n\n```bash\nclawdhub install humanizer\n```\n\n## Usage\n\nAsk your agent to humanize text:\n\n```\nPlease humanize this text: [your text]\n```\n\nOr invoke directly when editing documents.\n\n## Overview\n\nBased on [Wikipedia's \"Signs of AI writing\"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide, maintained by WikiProject AI Cleanup. This comprehensive guide comes from observations of thousands of instances of AI-generated text.\n\n### Key Insight\n\n> \"LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases.\"\n\n## 24 Patterns Detected\n\n### Content Patterns\n1. **Significance inflation** - \"marking a pivotal moment...\" \u2192 specific facts\n2. **Notability name-dropping** - listing sources without context\n3. **Superficial -ing analyses** - \"symbolizing... reflecting...\"\n4. **Promotional language** - \"nestled within the breathtaking...\"\n5. **Vague attributions** - \"Experts believe...\"\n6. **Formulaic challenges** - \"Despite challenges... continues to thrive\"\n\n### Language Patterns\n7. **AI vocabulary** - \"Additionally... testament... landscape...\"\n8. **Copula avoidance** - \"serves as\" instead of \"is\"\n9. **Negative parallelisms** - \"It's not just X, it's Y\"\n10. **Rule of three** - forcing ideas into groups of three\n11. **Synonym cycling** - excessive synonym substitution\n12. **False ranges** - \"from X to Y\" on non-meaningful scales\n\n### Style Patterns\n13. **Em dash overuse**\n14. **Boldface overuse**\n15. **Inline-header lists**\n16. **Title Case Headings**\n17. **Emoji decoration**\n18. **Curly quotation marks**\n\n### Communication Patterns\n19. **Chatbot artifacts** - \"I hope this helps!\"\n20. **Cutoff disclaimers** - \"While details are limited...\"\n21. **Sycophantic tone** - \"Great question!\"\n\n### Filler and Hedging\n22. **Filler phrases** - \"In order to\", \"Due to the fact that\"\n23. **Excessive hedging** - \"could potentially possibly\"\n24. **Generic conclusions** - \"The future looks bright\"\n\n## Full Example\n\n**Before (AI-sounding):**\n> The new software update serves as a testament to the company's commitment to innovation. Moreover, it provides a seamless, intuitive, and powerful user experience\u2014ensuring that users can accomplish their goals efficiently.\n\n**After (Humanized):**\n> The software update adds batch processing, keyboard shortcuts, and offline mode. Early feedback from beta testers has been positive, with most reporting faster task completion.\n\n## References\n\n- [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)\n- [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup)\n\n## License\n\nMIT\n",
+      "source": "fleet"
+    },
+    {
+      "name": "image-generator",
+      "dir_name": "image-generator",
+      "description": "Generate images using FLUX.1 Dev via GPU server. Use when asked to create, generate, or make an image, photo, illustration, or graphic.",
+      "triggers": [
+        "generate image",
+        "create image",
+        "make a picture",
+        "FLUX"
+      ],
+      "template": "Description: [DETAILED DESCRIPTION \u2014 verbose prompts work best]\nStyle: [photorealistic / illustration / concept art / logo]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "incident-commander",
+      "dir_name": "incident-commander",
+      "description": "Incident Commander Skill",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Incident Commander Skill\n\nA comprehensive incident response framework providing structured tools for managing technology incidents from detection through resolution and post-incident review.\n\n## Overview\n\nThis skill implements battle-tested practices from SRE and DevOps teams at scale, providing:\n\n- **Automated Severity Classification** - Intelligent incident triage\n- **Timeline Reconstruction** - Transform scattered events into coherent narratives\n- **Post-Incident Review Generation** - Structured PIRs with RCA frameworks\n- **Communication Templates** - Pre-built stakeholder communication\n- **Comprehensive Documentation** - Reference guides for incident response\n\n## Quick Start\n\n### Classify an Incident\n\n```bash\n# From JSON file\npython scripts/incident_classifier.py --input incident.json --format text\n\n# From stdin text\necho \"Database is down affecting all users\" | python scripts/incident_classifier.py --format text\n\n# Interactive mode\npython scripts/incident_classifier.py --interactive\n```\n\n### Reconstruct Timeline\n\n```bash\n# Analyze event timeline\npython scripts/timeline_reconstructor.py --input events.json --format text\n\n# With gap analysis\npython scripts/timeline_reconstructor.py --input events.json --gap-analysis --format markdown\n```\n\n### Generate PIR Document\n\n```bash\n# Basic PIR\npython scripts/pir_generator.py --incident incident.json --format markdown\n\n# Comprehensive PIR with timeline\npython scripts/pir_generator.py --incident incident.json --timeline timeline.json --rca-method fishbone\n```\n\n## Scripts\n\n### incident_classifier.py\n\n**Purpose:** Analyzes incident descriptions and provides severity classification, team recommendations, and response templates.\n\n**Input:** JSON object with incident details or plain text description\n**Output:** JSON + human-readable classification report\n\n**Example Input:**\n```json\n{\n  \"description\": \"Database connection timeouts causing 500 errors\",\n  \"service\": \"payment-api\",\n  \"affected_users\": \"80%\",\n  \"business_impact\": \"high\"\n}\n```\n\n**Key Features:**\n- SEV1-4 severity classification\n- Recommended response teams\n- Initial action prioritization\n- Communication templates\n- Response timelines\n\n### timeline_reconstructor.py\n\n**Purpose:** Reconstructs incident timelines from timestamped events, identifies phases, and performs gap analysis.\n\n**Input:** JSON array of timestamped events\n**Output:** Formatted timeline with phase analysis and metrics\n\n**Example Input:**\n```json\n[\n  {\n    \"timestamp\": \"2024-01-01T12:00:00Z\",\n    \"source\": \"monitoring\",\n    \"message\": \"High error rate detected\",\n    \"severity\": \"critical\",\n    \"actor\": \"system\"\n  }\n]\n```\n\n**Key Features:**\n- Phase detection (detection \u2192 triage \u2192 mitigation \u2192 resolution)\n- Duration analysis\n- Gap identification\n- Communication effectiveness analysis\n- Response metrics\n\n### pir_generator.py\n\n**Purpose:** Generates comprehensive Post-Incident Review documents with multiple RCA frameworks.\n\n**Input:** Incident data JSON, optional timeline data\n**Outp",
+      "source": "marketplace"
+    },
+    {
+      "name": "information-security-manager-iso27001",
+      "dir_name": "information-security-manager-iso27001",
+      "description": "ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and MedTech companies. Use for ISMS design, security risk assessment, control implementation, ISO 27001 certification, security audits, incident response, and compliance verification. Covers ISO 27001, ISO 27002, healthcare se",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "init",
+      "dir_name": "init",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "internal-narrative",
+      "dir_name": "internal-narrative",
+      "description": "Build and maintain one coherent company story across all audiences \u2014 employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board communi",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "interview-system-designer",
+      "dir_name": "interview-system-designer",
+      "description": "This skill should be used when the user asks to \"design interview processes\", \"create hiring pipelines\", \"calibrate interview loops\", \"generate interview questions\", \"design competency matrices\", \"analyze interviewer bias\", \"create scoring rubrics\", \"build question banks\", or \"optimize hiring system",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Interview System Designer\n\nA comprehensive toolkit for designing, optimizing, and calibrating interview processes. This skill provides tools to create role-specific interview loops, generate competency-based question banks, and analyze hiring data for bias and calibration issues.\n\n## Overview\n\nThe Interview System Designer skill includes three powerful Python tools and comprehensive reference materials to help you build fair, effective, and scalable hiring processes:\n\n1. **Interview Loop Designer** - Generate calibrated interview loops for any role and level\n2. **Question Bank Generator** - Create competency-based interview questions with scoring rubrics\n3. **Hiring Calibrator** - Analyze interview data to detect bias and calibration issues\n\n## Tools\n\n### 1. Interview Loop Designer (`loop_designer.py`)\n\nGenerates complete interview loops tailored to specific roles, levels, and teams.\n\n**Features:**\n- Role-specific competency mapping (SWE, PM, Designer, Data, DevOps, Leadership)\n- Level-appropriate interview rounds (junior through principal)\n- Optimized scheduling and time allocation\n- Interviewer skill requirements\n- Standardized scorecard templates\n\n**Usage:**\n```bash\n# Basic usage\npython3 loop_designer.py --role \"Senior Software Engineer\" --level senior\n\n# With team and custom competencies  \npython3 loop_designer.py --role \"Product Manager\" --level mid --team growth --competencies leadership,strategy,analytics\n\n# Using JSON input file\npython3 loop_designer.py --input assets/sample_role_definitions.json --output loops/\n\n# Specify output format\npython3 loop_designer.py --role \"Staff Data Scientist\" --level staff --format json --output data_scientist_loop.json\n```\n\n**Input Options:**\n- `--role`: Job role title (e.g., \"Senior Software Engineer\", \"Product Manager\")\n- `--level`: Experience level (junior, mid, senior, staff, principal)\n- `--team`: Team or department (optional)\n- `--competencies`: Comma-separated list of specific competencies to focus on\n- `--input`: JSON file with role definition\n- `--output`: Output directory or file path\n- `--format`: Output format (json, text, both) - default: both\n\n**Example Output:**\n```\nInterview Loop Design for Senior Software Engineer (Senior Level)\n============================================================\nTotal Duration: 300 minutes (5h 0m)\nTotal Rounds: 5\n\nINTERVIEW ROUNDS\n----------------------------------------\nRound 1: Technical Phone Screen\nDuration: 45 minutes\nFormat: Virtual\nFocus Areas: Coding Fundamentals, Problem Solving\n\nRound 2: System Design  \nDuration: 75 minutes\nFormat: Collaborative Whitboard\nFocus Areas: System Thinking, Architectural Reasoning\n...\n```\n\n### 2. Question Bank Generator (`question_bank_generator.py`)\n\nCreates comprehensive interview question banks organized by competency area.\n\n**Features:**\n- Competency-based question organization\n- Level-appropriate difficulty progression  \n- Multiple question types (technical, behavioral, situational)\n- Detailed scoring rubrics with cali",
+      "source": "marketplace"
+    },
+    {
+      "name": "intl-expansion",
+      "dir_name": "intl-expansion",
+      "description": "International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "isms-audit-expert",
+      "dir_name": "isms-audit-expert",
+      "description": "Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification support. Use when the user mentions ISO 27001, ISMS audit, Annex A controls, Statement of Applicability (SOA), gap analysis, nonconformity management, inte",
+      "triggers": [
+        "ISMS audit",
+        "ISO 27001 audit",
+        "security audit",
+        "internal audit ISO 27001",
+        "security control assessment",
+        "certification audit",
+        "surveillance audit",
+        "audit finding",
+        "nonconformity"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "jira-expert",
+      "dir_name": "jira-expert",
+      "description": "Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "landing-page-generator",
+      "dir_name": "landing-page-generator",
+      "description": "Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, and ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "launch-strategy",
+      "dir_name": "launch-strategy",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'GTM plan,' 'launch checklist,' or 'launc",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ma-playbook",
+      "dir_name": "ma-playbook",
+      "description": "M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions, preparing for acquisition, M&A due diligence, integration planning, or deal negotiation.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "marketing-context",
+      "dir_name": "marketing-context",
+      "description": "Create and maintain the marketing context document that all marketing skills read before starting. Use when the user mentions 'marketing context,' 'brand voice,' 'set up context,' 'target audience,' 'ICP,' 'style guide,' 'who is my customer,' 'positioning,' or wants to avoid repeating foundational i",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "marketing-demand-acquisition",
+      "dir_name": "marketing-demand-acquisition",
+      "description": "Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimization",
+      "triggers": [
+        "demand gen",
+        "demand generation",
+        "paid ads",
+        "paid media",
+        "LinkedIn ads",
+        "Google ads",
+        "Meta ads",
+        "CAC",
+        "customer acquisition cost",
+        "lead generation",
+        "MQL",
+        "SQL",
+        "pipeline generation",
+        "acquisition strategy",
+        "HubSpot campaigns"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "marketing-ideas",
+      "dir_name": "marketing-ideas",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven m",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "marketing-ops",
+      "dir_name": "marketing-ops",
+      "description": "Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do next",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "marketing-psychology",
+      "dir_name": "marketing-psychology",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provi",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "marketing-strategy-pmm",
+      "dir_name": "marketing-strategy-pmm",
+      "description": "Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Use when the user asks about product positioning, go-to-market planning, competitive analysis, target audience definition, ICP definition, market research, launch plans, or sales enablement. Covers",
+      "triggers": [
+        "product marketing",
+        "PMM",
+        "positioning",
+        "GTM strategy",
+        "go-to-market",
+        "competitive analysis",
+        "battlecard",
+        "product launch",
+        "market entry",
+        "sales enablement",
+        "win loss analysis"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "mcp-server-builder",
+      "dir_name": "mcp-server-builder",
+      "description": "MCP Server Builder",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# MCP Server Builder\n\nGenerate and validate MCP servers from OpenAPI contracts with production-focused tooling. This skill helps teams bootstrap fast and enforce schema quality before shipping.\n\n## Quick Start\n\n```bash\n# Generate scaffold from OpenAPI\npython3 scripts/openapi_to_mcp.py \\\n  --input openapi.json \\\n  --server-name my-mcp \\\n  --language python \\\n  --output-dir ./generated \\\n  --format text\n\n# Validate generated manifest\npython3 scripts/mcp_validator.py --input generated/tool_manifest.json --strict --format text\n```\n\n## Included Tools\n\n- `scripts/openapi_to_mcp.py`: OpenAPI -> `tool_manifest.json` + starter server scaffold\n- `scripts/mcp_validator.py`: structural and quality validation for MCP tool definitions\n\n## References\n\n- `references/openapi-extraction-guide.md`\n- `references/python-server-template.md`\n- `references/typescript-server-template.md`\n- `references/validation-checklist.md`\n\n## Installation\n\n### Claude Code\n\n```bash\ncp -R engineering/mcp-server-builder ~/.claude/skills/mcp-server-builder\n```\n\n### OpenAI Codex\n\n```bash\ncp -R engineering/mcp-server-builder ~/.codex/skills/mcp-server-builder\n```\n\n### OpenClaw\n\n```bash\ncp -R engineering/mcp-server-builder ~/.openclaw/skills/mcp-server-builder\n```\n",
+      "source": "marketplace"
+    },
+    {
+      "name": "mdr-745-specialist",
+      "dir_name": "mdr-745-specialist",
+      "description": "EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, and EUDAMED integration.",
+      "triggers": [
+        "MDR compliance",
+        "EU MDR",
+        "medical device classification",
+        "Annex VIII",
+        "technical documentation",
+        "clinical evaluation",
+        "PMCF",
+        "EUDAMED",
+        "UDI",
+        "notified body"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "migrate",
+      "dir_name": "migrate",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "migration-architect",
+      "dir_name": "migration-architect",
+      "description": "Migration Architect",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Migration Architect\n\n**Tier:** POWERFUL  \n**Category:** Engineering - Migration Strategy  \n**Purpose:** Zero-downtime migration planning, compatibility validation, and rollback strategy generation\n\n## Overview\n\nThe Migration Architect skill provides comprehensive tools and methodologies for planning, executing, and validating complex system migrations with minimal business impact. This skill combines proven migration patterns with automated planning tools to ensure successful transitions between systems, databases, and infrastructure.\n\n## Components\n\n### Core Scripts\n\n1. **migration_planner.py** - Automated migration plan generation\n2. **compatibility_checker.py** - Schema and API compatibility analysis  \n3. **rollback_generator.py** - Comprehensive rollback procedure generation\n\n### Reference Documentation\n\n- **migration_patterns_catalog.md** - Detailed catalog of proven migration patterns\n- **zero_downtime_techniques.md** - Comprehensive zero-downtime migration techniques\n- **data_reconciliation_strategies.md** - Advanced data consistency and reconciliation strategies\n\n### Sample Assets\n\n- **sample_database_migration.json** - Example database migration specification\n- **sample_service_migration.json** - Example service migration specification\n- **database_schema_before.json** - Sample \"before\" database schema\n- **database_schema_after.json** - Sample \"after\" database schema\n\n## Quick Start\n\n### 1. Generate a Migration Plan\n\n```bash\npython3 scripts/migration_planner.py \\\n  --input assets/sample_database_migration.json \\\n  --output migration_plan.json \\\n  --format both\n```\n\n**Input:** Migration specification with source, target, constraints, and requirements\n**Output:** Detailed phased migration plan with risk assessment, timeline, and validation gates\n\n### 2. Check Compatibility\n\n```bash\npython3 scripts/compatibility_checker.py \\\n  --before assets/database_schema_before.json \\\n  --after assets/database_schema_after.json \\\n  --type database \\\n  --output compatibility_report.json \\\n  --format both\n```\n\n**Input:** Before and after schema definitions\n**Output:** Compatibility report with breaking changes, migration scripts, and recommendations\n\n### 3. Generate Rollback Procedures\n\n```bash\npython3 scripts/rollback_generator.py \\\n  --input migration_plan.json \\\n  --output rollback_runbook.json \\\n  --format both\n```\n\n**Input:** Migration plan from step 1\n**Output:** Comprehensive rollback runbook with procedures, triggers, and communication templates\n\n## Script Details\n\n### Migration Planner (`migration_planner.py`)\n\nGenerates comprehensive migration plans with:\n\n- **Phased approach** with dependencies and validation gates\n- **Risk assessment** with mitigation strategies\n- **Timeline estimation** based on complexity and constraints\n- **Rollback triggers** and success criteria\n- **Stakeholder communication** templates\n\n**Usage:**\n```bash\npython3 scripts/migration_planner.py [OPTIONS]\n\nOptions:\n  --input, -i     Input migration specification file (JSON",
+      "source": "marketplace"
+    },
+    {
+      "name": "model-sync",
+      "dir_name": "model-sync",
+      "description": "Sync available models from all configured providers into openclaw.json. Queries each provider's live API to discover models. OpenRouter: free models only. All other providers: all available models. Use when you need to update the model list, discover new models, or refresh after provider changes.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "monorepo-navigator",
+      "dir_name": "monorepo-navigator",
+      "description": "Monorepo Navigator",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ms365-tenant-manager",
+      "dir_name": "ms365-tenant-manager",
+      "description": "Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, licen",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "news-research",
+      "dir_name": "news-research",
+      "description": "Research current news and events using Google News RSS. Use for any task requiring current events, recent news, or fact-checking recent happenings. Fast, free, no API key needed.",
+      "triggers": [],
+      "template": "Topic: [TOPIC]\nTimeframe: [today / this week / this month]\nFocus: [breaking news / analysis / industry]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "observability-designer",
+      "dir_name": "observability-designer",
+      "description": "Observability Designer (POWERFUL)",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Observability Designer\n\nA comprehensive toolkit for designing production-ready observability strategies including SLI/SLO frameworks, alert optimization, and dashboard generation.\n\n## Overview\n\nThe Observability Designer skill provides three powerful Python scripts that help you create, optimize, and maintain observability systems:\n\n- **SLO Designer**: Generate complete SLI/SLO frameworks with error budgets and burn rate alerts\n- **Alert Optimizer**: Analyze and optimize existing alert configurations to reduce noise and improve effectiveness\n- **Dashboard Generator**: Create comprehensive dashboard specifications with role-based layouts and drill-down paths\n\n## Quick Start\n\n### Prerequisites\n\n- Python 3.7+\n- No external dependencies required (uses Python standard library only)\n\n### Basic Usage\n\n```bash\n# Generate SLO framework for a service\npython3 scripts/slo_designer.py --service-type api --criticality critical --user-facing true --service-name payment-service\n\n# Optimize existing alerts\npython3 scripts/alert_optimizer.py --input assets/sample_alerts.json --analyze-only\n\n# Generate a dashboard specification\npython3 scripts/dashboard_generator.py --service-type web --name \"Customer Portal\" --role sre\n```\n\n## Scripts Documentation\n\n### SLO Designer (`slo_designer.py`)\n\nGenerates comprehensive SLO frameworks based on service characteristics.\n\n#### Features\n- **Automatic SLI Selection**: Recommends appropriate SLIs based on service type\n- **Target Setting**: Suggests SLO targets based on service criticality\n- **Error Budget Calculation**: Computes error budgets and burn rate thresholds\n- **Multi-Window Burn Rate Alerts**: Generates 4-window burn rate alerting rules\n- **SLA Recommendations**: Provides customer-facing SLA guidance\n\n#### Usage Examples\n\n```bash\n# From service definition file\npython3 scripts/slo_designer.py --input assets/sample_service_api.json --output slo_framework.json\n\n# From command line parameters\npython3 scripts/slo_designer.py \\\n    --service-type api \\\n    --criticality critical \\\n    --user-facing true \\\n    --service-name payment-service \\\n    --output payment_slos.json\n\n# Generate and display summary only\npython3 scripts/slo_designer.py --input assets/sample_service_web.json --summary-only\n```\n\n#### Service Definition Format\n\n```json\n{\n  \"name\": \"payment-service\",\n  \"type\": \"api\",\n  \"criticality\": \"critical\",\n  \"user_facing\": true,\n  \"description\": \"Handles payment processing\",\n  \"team\": \"payments\",\n  \"environment\": \"production\",\n  \"dependencies\": [\n    {\n      \"name\": \"user-service\",\n      \"type\": \"api\",\n      \"criticality\": \"high\"\n    }\n  ]\n}\n```\n\n#### Supported Service Types\n- **api**: REST APIs, GraphQL services\n- **web**: Web applications, SPAs\n- **database**: Database services, data stores\n- **queue**: Message queues, event streams\n- **batch**: Batch processing jobs\n- **ml**: Machine learning services\n\n#### Criticality Levels\n- **critical**: 99.99% availability, <100ms P95 latency, <0.1% error rate\n- **high**: 99.9",
+      "source": "marketplace"
+    },
+    {
+      "name": "onboarding-cro",
+      "dir_name": "onboarding-cro",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experie",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "openai-whisper",
+      "dir_name": "openai-whisper-1.0.0",
+      "description": "Local speech-to-text with the Whisper CLI (no API key).",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "org-health-diagnostic",
+      "dir_name": "org-health-diagnostic",
+      "description": "Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "page-cro",
+      "dir_name": "page-cro",
+      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page \u2014 including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why is",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "paid-ads",
+      "dir_name": "paid-ads",
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This ski",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "paywall-upgrade-cro",
+      "dir_name": "paywall-upgrade-cro",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reache",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "performance-profiler",
+      "dir_name": "performance-profiler",
+      "description": "Performance Profiler",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "perplexity",
+      "dir_name": "perplexity",
+      "description": "Deep sourced research via Perplexity AI (browser automation, no API). Use when the user needs in-depth research with cited sources, comprehensive answers to complex questions, or multi-source fact synthesis. Triggers include \"research this\", \"perplexity search\", \"find sources for\", \"deep dive on\", \"",
+      "triggers": [],
+      "template": "Query: [RESEARCH_QUESTION]\nDepth: [quick / thorough]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "phone-fleet",
+      "dir_name": "phone-fleet",
+      "description": "Make outbound phone calls through GPU server's voice-app API. Use when asked to call, phone, ring, or dial someone.",
+      "triggers": [
+        "call",
+        "phone",
+        "ring",
+        "dial",
+        "outbound call"
+      ],
+      "template": "Call [PHONE_NUMBER] and say: [MESSAGE]\nMode: conversation",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "playwright-pro",
+      "dir_name": "playwright-pro",
+      "description": "Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on BrowserSt",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Playwright Pro\n\n> Production-grade Playwright testing toolkit for AI coding agents.\n\nGenerate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on BrowserStack \u2014 all from your AI agent.\n\n## Install\n\n```bash\n# Claude Code plugin\nclaude plugin install pw@claude-skills\n\n# Or load directly\nclaude --plugin-dir ./engineering-team/playwright-pro\n```\n\n## Commands\n\n| Command | What it does |\n|---|---|\n| `/pw:init` | Set up Playwright in your project \u2014 detects framework, generates config, CI, first test |\n| `/pw:generate <spec>` | Generate tests from a user story, URL, or component name |\n| `/pw:review` | Review existing tests for anti-patterns and coverage gaps |\n| `/pw:fix <test>` | Diagnose and fix a failing or flaky test |\n| `/pw:migrate` | Migrate from Cypress or Selenium to Playwright |\n| `/pw:coverage` | Analyze what's tested vs. what's missing |\n| `/pw:testrail` | Sync with TestRail \u2014 read cases, push results, create runs |\n| `/pw:browserstack` | Run tests on BrowserStack, pull cross-browser reports |\n| `/pw:report` | Generate a test report in your preferred format |\n\n## Quick Start\n\n```bash\n# In Claude Code:\n/pw:init                              # Set up Playwright\n/pw:generate \"user can log in\"        # Generate your first test\n# Tests are auto-validated by hooks \u2014 no extra steps\n```\n\n## What's Inside\n\n### 9 Skills\n\nSlash commands that turn natural language into production-ready Playwright tests. Each skill leverages Claude Code's built-in capabilities (`/batch` for parallel work, `Explore` for codebase analysis, `/debug` for trace inspection).\n\n### 3 Specialized Agents\n\n- **test-architect** \u2014 Plans test strategy for complex applications\n- **test-debugger** \u2014 Diagnoses flaky tests using a systematic taxonomy\n- **migration-planner** \u2014 Creates file-by-file migration plans from Cypress/Selenium\n\n### 55 Test Templates\n\nReady-to-use, parametrizable templates covering:\n\n| Category | Count | Examples |\n|---|---|---|\n| Authentication | 8 | Login, logout, SSO, MFA, password reset, RBAC |\n| CRUD | 6 | Create, read, update, delete, bulk ops |\n| Checkout | 6 | Cart, payment, coupon, order history |\n| Search | 5 | Basic search, filters, sorting, pagination |\n| Forms | 6 | Multi-step, validation, file upload |\n| Dashboard | 5 | Data loading, charts, export |\n| Settings | 4 | Profile, password, notifications |\n| Onboarding | 4 | Registration, email verify, welcome tour |\n| Notifications | 3 | In-app, toast, notification center |\n| API | 5 | REST CRUD, GraphQL, error handling |\n| Accessibility | 3 | Keyboard nav, screen reader, contrast |\n\n### 2 MCP Integrations\n\n- **TestRail** \u2014 Read test cases, create runs, push pass/fail results\n- **BrowserStack** \u2014 Trigger cross-browser runs, pull session reports with video/screenshots\n\n### Smart Hooks\n\n- Auto-validates test quality when you write `*.spec.ts` files\n- Auto-detects Playwright projects on session start\n- Zero configuration required\n\n## Integrations Setup\n\n### TestRail (Optional",
+      "source": "marketplace"
+    },
+    {
+      "name": "podcast-arnold",
+      "dir_name": "podcast-arnold",
+      "description": "Generate Arnold Schwarzenegger talk show episodes with cloned voice TTS cloned voices. Use for Arnold interviews or talk show content.",
+      "triggers": [
+        "Arnold",
+        "Arnold show",
+        "talk show"
+      ],
+      "template": "Guest: [GUEST_NAME]\nTopic: [TOPIC]\nGuest voice: [clone name or \"generic\"]\nDuration: [10-30 min]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "podcast-generator",
+      "dir_name": "podcast-generator",
+      "description": "Generate multi-voice podcast audio from a script using cloned voices (cloned voice TTS) or preset voices (local TTS). Handles script formatting, voice assignment, and audio production. Use for any task involving TTS, podcast, or audio content generation.",
+      "triggers": [],
+      "template": "Topic: [TOPIC]\nFormat: [narration / dialogue / interview]\nVoices: [HOST=Heart, GUEST=Fenrir, NARRATOR=Emma \u2014 or specify]\nDuration: [5-20 min]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "podcast-roundtable",
+      "dir_name": "podcast-roundtable",
+      "description": "Generate Crossfire Roundtable debate podcasts with cloned voice TTS cloned voices. Use for roundtable, debate, or political podcast content.",
+      "triggers": [
+        "roundtable",
+        "crossfire",
+        "debate podcast"
+      ],
+      "template": "Topic: [TOPIC]\nDuration: [20-60 min]\nAngle: [debate / deep-dive / news-reaction / explainer]\nSpecial instructions: [optional]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "popup-cro",
+      "dir_name": "popup-cro",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "postmortem",
+      "dir_name": "postmortem",
+      "description": "/em -postmortem \u2014 Honest Analysis of What Went Wrong",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "pr-review-expert",
+      "dir_name": "pr-review-expert",
+      "description": "PR Review Expert",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "pricing-strategy",
+      "dir_name": "pricing-strategy",
+      "description": "Design, optimize, and communicate SaaS pricing \u2014 tier structure, value metrics, pricing pages, and price increase strategy. Use when building a pricing model from scratch, redesigning existing pricing, planning a price increase, or improving a pricing page. Trigger keywords: pricing tiers, pricing p",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "product-manager-toolkit",
+      "dir_name": "product-manager-toolkit",
+      "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "product-strategist",
+      "dir_name": "product-strategist",
+      "description": "Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps, ru",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "programmatic-seo",
+      "dir_name": "programmatic-seo",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "promote",
+      "dir_name": "promote",
+      "description": "Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement.",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "prompt-engineer-toolkit",
+      "dir_name": "prompt-engineer-toolkit",
+      "description": "Analyzes and rewrites prompts for better AI output, creates reusable prompt templates for marketing use cases (ad copy, email campaigns, social media), and structures end-to-end AI content workflows. Use when the user wants to improve prompts for AI-assisted marketing, build prompt templates, or opt",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Prompt Engineer Toolkit\n\nProduction toolkit for evaluating and versioning prompts with measurable quality signals. Includes A/B testing automation and prompt history management with diffs.\n\n## Quick Start\n\n```bash\n# Run A/B prompt evaluation\npython3 scripts/prompt_tester.py \\\n  --prompt-a-file prompts/a.txt \\\n  --prompt-b-file prompts/b.txt \\\n  --cases-file testcases.json \\\n  --format text\n\n# Store a prompt version\npython3 scripts/prompt_versioner.py add \\\n  --name support_classifier \\\n  --prompt-file prompts/a.txt \\\n  --author team\n```\n\n## Included Tools\n\n- `scripts/prompt_tester.py`: A/B testing with per-case scoring and aggregate winner\n- `scripts/prompt_versioner.py`: prompt history (`add`, `list`, `diff`, `changelog`) in local JSONL store\n\n## References\n\n- `references/prompt-templates.md`\n- `references/technique-guide.md`\n- `references/evaluation-rubric.md`\n\n## Installation\n\n### Claude Code\n\n```bash\ncp -R marketing-skill/prompt-engineer-toolkit ~/.claude/skills/prompt-engineer-toolkit\n```\n\n### OpenAI Codex\n\n```bash\ncp -R marketing-skill/prompt-engineer-toolkit ~/.codex/skills/prompt-engineer-toolkit\n```\n\n### OpenClaw\n\n```bash\ncp -R marketing-skill/prompt-engineer-toolkit ~/.openclaw/skills/prompt-engineer-toolkit\n```\n",
+      "source": "marketplace"
+    },
+    {
+      "name": "qms-audit-expert",
+      "dir_name": "qms-audit-expert",
+      "description": "ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification. Use for internal audit planning, audit execution, finding classification, external audit preparation, or audit program management.",
+      "triggers": [
+        "ISO 13485 audit",
+        "internal audit",
+        "QMS audit",
+        "audit planning",
+        "nonconformity classification",
+        "CAPA verification",
+        "audit checklist",
+        "audit finding",
+        "external audit prep",
+        "audit schedule"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "quality-documentation-manager",
+      "dir_name": "quality-documentation-manager",
+      "description": "Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance. Use for document control procedures, change control workflow, document numbering, version management, electronic signature compliance, or regulator",
+      "triggers": [
+        "document control",
+        "document numbering",
+        "version control",
+        "change control",
+        "document approval",
+        "electronic signature",
+        "21 CFR Part 11",
+        "audit trail",
+        "document lifecycle",
+        "controlled document",
+        "document master list",
+        "record retention"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "quality-manager-qmr",
+      "dir_name": "quality-manager-qmr",
+      "description": "Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review leadership, regulatory compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2.",
+      "triggers": [
+        "management review",
+        "quality policy",
+        "quality objectives",
+        "QMR responsibilities",
+        "quality system effectiveness",
+        "quality KPIs",
+        "cost of quality",
+        "quality performance",
+        "management accountability",
+        "regulatory oversight",
+        "quality culture",
+        "quality governance"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "quality-manager-qms-iso13485",
+      "dir_name": "quality-manager-qms-iso13485",
+      "description": "ISO 13485 Quality Management System implementation and maintenance for medical device organizations. Provides QMS design, documentation control, internal auditing, CAPA management, and certification support. Use when working with medical device quality systems, preparing for ISO 13485 audits, managi",
+      "triggers": [
+        "ISO 13485",
+        "QMS implementation",
+        "quality management system",
+        "document control",
+        "internal audit",
+        "management review",
+        "quality manual",
+        "CAPA process",
+        "process validation",
+        "design control",
+        "supplier qualification",
+        "quality records"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "rag-architect",
+      "dir_name": "rag-architect",
+      "description": "RAG Architect - POWERFUL",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "referral-program",
+      "dir_name": "referral-program",
+      "description": "When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth through ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "regulatory-affairs-head",
+      "dir_name": "regulatory-affairs-head",
+      "description": "Senior Regulatory Affairs Manager for HealthTech and MedTech companies. Prepares FDA 510(k), De Novo, and PMA submission packages; analyzes regulatory pathways for new medical devices; drafts responses to FDA deficiency letters and Notified Body queries; develops CE marking technical documentation u",
+      "triggers": [
+        "regulatory strategy",
+        "FDA submission",
+        "EU MDR",
+        "510(k)",
+        "PMA approval",
+        "CE marking",
+        "regulatory pathway",
+        "market access",
+        "clinical evidence",
+        "regulatory intelligence",
+        "submission planning",
+        "notified body"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "release-manager",
+      "dir_name": "release-manager",
+      "description": "Release Manager",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Release Manager\n\nA comprehensive release management toolkit for automating changelog generation, version bumping, and release planning based on conventional commits and industry best practices.\n\n## Overview\n\nThe Release Manager skill provides three powerful Python scripts and comprehensive documentation for managing software releases:\n\n1. **changelog_generator.py** - Generate structured changelogs from git history\n2. **version_bumper.py** - Determine correct semantic version bumps\n3. **release_planner.py** - Assess release readiness and generate coordination plans\n\n## Quick Start\n\n### Prerequisites\n\n- Python 3.7+\n- Git repository with conventional commit messages\n- No external dependencies required (uses only Python standard library)\n\n### Basic Usage\n\n```bash\n# Generate changelog from recent commits\ngit log --oneline --since=\"1 month ago\" | python changelog_generator.py\n\n# Determine version bump from commits since last tag  \ngit log --oneline $(git describe --tags --abbrev=0)..HEAD | python version_bumper.py -c \"1.2.3\"\n\n# Assess release readiness\npython release_planner.py --input assets/sample_release_plan.json\n```\n\n## Scripts Reference\n\n### changelog_generator.py\n\nParses conventional commits and generates structured changelogs in multiple formats.\n\n**Input Options:**\n- Git log text (oneline or full format)\n- JSON array of commits\n- Stdin or file input\n\n**Output Formats:**\n- Markdown (Keep a Changelog format)\n- JSON structured data\n- Both with release statistics\n\n```bash\n# From git log (recommended)\ngit log --oneline --since=\"last release\" | python changelog_generator.py \\\n  --version \"2.1.0\" \\\n  --date \"2024-01-15\" \\\n  --base-url \"https://github.com/yourorg/yourrepo\"\n\n# From JSON file\npython changelog_generator.py \\\n  --input assets/sample_commits.json \\\n  --input-format json \\\n  --format both \\\n  --summary\n\n# With custom output\ngit log --format=\"%h %s\" v1.0.0..HEAD | python changelog_generator.py \\\n  --version \"1.1.0\" \\\n  --output CHANGELOG_DRAFT.md\n```\n\n**Features:**\n- Parses conventional commit types (feat, fix, docs, etc.)\n- Groups commits by changelog categories (Added, Fixed, Changed, etc.)\n- Extracts issue references (#123, fixes #456)\n- Identifies breaking changes\n- Links to commits and PRs\n- Generates release summary statistics\n\n### version_bumper.py\n\nAnalyzes commits to determine semantic version bumps according to conventional commits.\n\n**Bump Rules:**\n- **MAJOR:** Breaking changes (`feat!:` or `BREAKING CHANGE:`)\n- **MINOR:** New features (`feat:`)\n- **PATCH:** Bug fixes (`fix:`, `perf:`, `security:`)\n- **NONE:** Documentation, tests, chores only\n\n```bash\n# Basic version bump determination\ngit log --oneline v1.2.3..HEAD | python version_bumper.py --current-version \"1.2.3\"\n\n# With pre-release version\npython version_bumper.py \\\n  --current-version \"1.2.3\" \\\n  --prerelease alpha \\\n  --input assets/sample_commits.json \\\n  --input-format json\n\n# Include bump commands and file updates\ngit log --oneline $(git describe --tags --abbrev=0)..",
+      "source": "marketplace"
+    },
+    {
+      "name": "remember",
+      "dir_name": "remember",
+      "description": "Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture.",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "report",
+      "dir_name": "report",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "revenue-operations",
+      "dir_name": "revenue-operations",
+      "description": "Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking foreca",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "review",
+      "dir_name": "review",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "risk-management-specialist",
+      "dir_name": "risk-management-specialist",
+      "description": "Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard identifi",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "runbook-generator",
+      "dir_name": "runbook-generator",
+      "description": "Runbook Generator",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "saas-scaffolder",
+      "dir_name": "saas-scaffolder",
+      "description": "Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe. Use when the user wants to create a new SaaS ",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "sales-engineer",
+      "dir_name": "sales-engineer",
+      "description": "Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a custome",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "sample-skill",
+      "dir_name": "sample-skill",
+      "description": "Sample Text Processor",
+      "triggers": [],
+      "template": "",
+      "docs": "# Sample Text Processor\n\nA basic text processing skill that demonstrates BASIC tier requirements for the claude-skills ecosystem.\n\n## Quick Start\n\n```bash\n# Analyze a text file\npython scripts/text_processor.py analyze sample.txt\n\n# Get JSON output\npython scripts/text_processor.py analyze sample.txt --format json\n\n# Transform text to uppercase  \npython scripts/text_processor.py transform sample.txt --mode upper\n\n# Process multiple files\npython scripts/text_processor.py batch text_files/ --verbose\n```\n\n## Features\n\n- Word count and text statistics\n- Text transformations (upper, lower, title, reverse)\n- Batch file processing\n- JSON and human-readable output formats\n- Comprehensive error handling\n\n## Requirements\n\n- Python 3.7 or later\n- No external dependencies (standard library only)\n\n## Usage\n\nSee [SKILL.md](SKILL.md) for comprehensive documentation and examples.\n\n## Testing\n\nSample data files are provided in the `assets/` directory for testing the functionality.",
+      "source": "marketplace"
+    },
+    {
+      "name": "scenario-war-room",
+      "dir_name": "scenario-war-room",
+      "description": "Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "schema-markup",
+      "dir_name": "schema-markup",
+      "description": "When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors i",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "scrum-master",
+      "dir_name": "scrum-master",
+      "description": "Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health. Runs Python scripts to analy",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "seek-and-analyze-video",
+      "dir_name": "seek-and-analyze-video",
+      "description": "Video intelligence and content analysis using Memories.ai LVMM. Discover videos on TikTok, YouTube, Instagram by topic or creator. Analyze video content, summarize meetings, build searchable knowledge bases across multiple videos. Use for video research, competitor content analysis, meeting notes, l",
+      "triggers": [
+        "analyze video",
+        "video content analysis",
+        "summarize video",
+        "meeting notes from video",
+        "search TikTok videos",
+        "search YouTube videos",
+        "video knowledge base",
+        "competitor video analysis",
+        "extract video insights",
+        "video research",
+        "video intelligence",
+        "cross-video search"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "self-improvement",
+      "dir_name": "self-improving-agent",
+      "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude rea",
+      "triggers": [],
+      "template": "Type: [correction / pattern / preference / error-fix]\nWhat happened: [DESCRIPTION]\nWhat to remember: [THE_LEARNING]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "senior-architect",
+      "dir_name": "senior-architect",
+      "description": "This skill should be used when the user asks to \"design system architecture\", \"evaluate microservices vs monolith\", \"create architecture diagrams\", \"analyze dependencies\", \"choose a database\", \"plan for scalability\", \"make technical decisions\", or \"review system design\". Use for architecture decisio",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-backend",
+      "dir_name": "senior-backend",
+      "description": "Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to \"design REST APIs\", \"optimize database queries\", \"implement authentication\", \"build microservices\", \"review backend code\", \"set u",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-computer-vision",
+      "dir_name": "senior-computer-vision",
+      "description": "Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralytics,",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-data-engineer",
+      "dir_name": "senior-data-engineer",
+      "description": "Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, buildi",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-data-scientist",
+      "dir_name": "senior-data-scientist",
+      "description": "World-class senior data scientist skill specialising in statistical modeling, experiment design, causal inference, and predictive analytics. Covers A/B testing (sample sizing, two-proportion z-tests, Bonferroni correction), difference-in-differences, feature engineering pipelines (Scikit-learn, XGBo",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-devops",
+      "dir_name": "senior-devops",
+      "description": "Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementi",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-frontend",
+      "dir_name": "senior-frontend",
+      "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-fullstack",
+      "dir_name": "senior-fullstack",
+      "description": "Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to \"scaffold a new project\", \"create a Next.js app\", \"set up FastAPI with React\", \"an",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-ml-engineer",
+      "dir_name": "senior-ml-engineer",
+      "description": "ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, Kub",
+      "triggers": [
+        "MLOps pipeline",
+        "model deployment",
+        "feature store",
+        "model monitoring",
+        "drift detection",
+        "RAG system",
+        "LLM integration",
+        "model serving",
+        "A/B testing ML",
+        "automated retraining"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-pm",
+      "dir_name": "senior-pm",
+      "description": "Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simulatio",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-prompt-engineer",
+      "dir_name": "senior-prompt-engineer",
+      "description": "This skill should be used when the user asks to \"optimize prompts\", \"design prompt templates\", \"evaluate LLM outputs\", \"build agentic systems\", \"implement RAG\", \"create few-shot examples\", \"analyze token usage\", or \"design AI workflows\". Use for prompt engineering patterns, LLM evaluation frameworks",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-qa",
+      "dir_name": "senior-qa",
+      "description": "Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, creates t",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Senior QA Testing Engineer Skill\n\nProduction-ready quality assurance and test automation skill for React/Next.js applications.\n\n## Tech Stack Focus\n\n| Category | Technologies |\n|----------|--------------|\n| Unit/Integration | Jest, React Testing Library |\n| E2E Testing | Playwright |\n| Coverage Analysis | Istanbul, NYC, LCOV |\n| API Mocking | MSW (Mock Service Worker) |\n| Accessibility | jest-axe, @axe-core/playwright |\n\n## Quick Start\n\n```bash\n# Generate component tests\npython scripts/test_suite_generator.py src/components --include-a11y\n\n# Analyze coverage gaps\npython scripts/coverage_analyzer.py coverage/coverage-final.json --threshold 80 --strict\n\n# Scaffold E2E tests for Next.js\npython scripts/e2e_test_scaffolder.py src/app --page-objects\n```\n\n## Scripts\n\n### test_suite_generator.py\n\nScans React/TypeScript components and generates Jest + React Testing Library test stubs.\n\n**Features:**\n- Detects functional, class, memo, and forwardRef components\n- Generates render, interaction, and accessibility tests\n- Identifies props requiring mock data\n- Optional `--include-a11y` for jest-axe assertions\n\n**Usage:**\n```bash\npython scripts/test_suite_generator.py <component-dir> [options]\n\nOptions:\n  --scan-only       List components without generating tests\n  --include-a11y    Add accessibility test assertions\n  --output DIR      Output directory for test files\n```\n\n### coverage_analyzer.py\n\nParses Istanbul JSON or LCOV coverage reports and identifies testing gaps.\n\n**Features:**\n- Calculates line, branch, function, and statement coverage\n- Identifies critical untested paths (auth, payment, API routes)\n- Generates text and HTML reports\n- Threshold enforcement with `--strict` flag\n\n**Usage:**\n```bash\npython scripts/coverage_analyzer.py <coverage-file> [options]\n\nOptions:\n  --threshold N     Minimum coverage percentage (default: 80)\n  --strict          Exit with error if below threshold\n  --format FORMAT   Output format: text, json, html\n  --output FILE     Output file path\n```\n\n### e2e_test_scaffolder.py\n\nScans Next.js App Router or Pages Router directories and generates Playwright tests.\n\n**Features:**\n- Detects routes, dynamic parameters, and layouts\n- Generates test files per route with navigation and content checks\n- Optional Page Object Model class generation\n- Generates `playwright.config.ts` and auth fixtures\n\n**Usage:**\n```bash\npython scripts/e2e_test_scaffolder.py <app-dir> [options]\n\nOptions:\n  --page-objects    Generate Page Object Model classes\n  --output DIR      Output directory for E2E tests\n  --base-url URL    Base URL for tests (default: http://localhost:3000)\n```\n\n## References\n\n### testing_strategies.md (650 lines)\n\nComprehensive testing strategy guide covering:\n- Test pyramid and distribution (70% unit, 20% integration, 10% E2E)\n- Coverage targets by project type\n- Testing types (unit, integration, E2E, visual, accessibility)\n- CI/CD integration patterns\n- Testing decision framework\n\n### test_automation_patterns.md (1010 lines)\n\nReact",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-secops",
+      "dir_name": "senior-secops",
+      "description": "Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices. Runs SAST/DAST scans, generates CVE remediation plans, checks dependency vulnerabilities, creates security policies, enforces secure coding patterns, and automa",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "senior-security",
+      "dir_name": "senior-security",
+      "description": "Security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing. Includes STRIDE analysis, OWASP guidance, cryptography patterns, and security scanning tools. Use when the user asks about security reviews, threat analysis, vulnerability assessme",
+      "triggers": [
+        "security architecture",
+        "threat modeling",
+        "STRIDE analysis",
+        "penetration testing",
+        "vulnerability assessment",
+        "secure coding",
+        "OWASP",
+        "application security",
+        "cryptography implementation",
+        "secret scanning",
+        "security audit",
+        "zero trust"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "seo-audit",
+      "dir_name": "seo-audit",
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-s",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "signup-flow-cro",
+      "dir_name": "signup-flow-cro",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onbo",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "site-architecture",
+      "dir_name": "site-architecture",
+      "description": "When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy. Use when the user mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,' 'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pages",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "skill-security-auditor",
+      "dir_name": "skill-security-auditor",
+      "description": ">",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "skill-tester",
+      "dir_name": "skill-tester",
+      "description": "Skill Tester",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Skill Tester - Quality Assurance Meta-Skill\n\nA POWERFUL-tier skill that provides comprehensive validation, testing, and quality scoring for skills in the claude-skills ecosystem.\n\n## Overview\n\nThe Skill Tester is a meta-skill that ensures quality and consistency across all skills in the repository through:\n\n- **Structure Validation** - Verifies directory structure, file presence, and documentation standards\n- **Script Testing** - Tests Python scripts for syntax, functionality, and compliance\n- **Quality Scoring** - Provides comprehensive quality assessment across multiple dimensions\n\n## Quick Start\n\n### Validate a Skill\n```bash\n# Basic validation\npython scripts/skill_validator.py engineering/my-skill\n\n# Validate against specific tier\npython scripts/skill_validator.py engineering/my-skill --tier POWERFUL --json\n```\n\n### Test Scripts\n```bash\n# Test all scripts in a skill\npython scripts/script_tester.py engineering/my-skill\n\n# Test with custom timeout\npython scripts/script_tester.py engineering/my-skill --timeout 60 --json\n```\n\n### Score Quality\n```bash\n# Get quality assessment\npython scripts/quality_scorer.py engineering/my-skill\n\n# Detailed scoring with improvement suggestions\npython scripts/quality_scorer.py engineering/my-skill --detailed --json\n```\n\n## Components\n\n### Scripts\n- **skill_validator.py** (700+ LOC) - Validates skill structure and compliance\n- **script_tester.py** (800+ LOC) - Tests script functionality and quality\n- **quality_scorer.py** (1100+ LOC) - Multi-dimensional quality assessment\n\n### Reference Documentation\n- **skill-structure-specification.md** - Complete structural requirements\n- **tier-requirements-matrix.md** - Tier-specific quality standards\n- **quality-scoring-rubric.md** - Detailed scoring methodology\n\n### Sample Assets\n- **sample-skill/** - Complete sample skill for testing the tester itself\n\n## Features\n\n### Validation Capabilities\n- SKILL.md format and content validation\n- Directory structure compliance checking\n- Python script syntax and import validation\n- Argparse implementation verification\n- Tier-specific requirement enforcement\n\n### Testing Framework\n- Syntax validation using AST parsing\n- Import analysis for external dependencies\n- Runtime execution testing with timeout protection\n- Help functionality verification\n- Sample data processing validation\n- Output format compliance checking\n\n### Quality Assessment\n- Documentation quality scoring (25%)\n- Code quality evaluation (25%)  \n- Completeness assessment (25%)\n- Usability analysis (25%)\n- Letter grade assignment (A+ to F)\n- Tier recommendation generation\n- Improvement roadmap creation\n\n## CI/CD Integration\n\n### GitHub Actions Example\n```yaml\nname: Skill Quality Gate\non:\n  pull_request:\n    paths: ['engineering/**']\n    \njobs:\n  validate-skills:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      - name: Setup Python\n        uses: actions/setup-python@v4\n        with:\n          python-version: '3.11'\n      - name: Validate Skills",
+      "source": "marketplace"
+    },
+    {
+      "name": "social-content",
+      "dir_name": "social-content",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'vi",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "social-media-analyzer",
+      "dir_name": "social-media-analyzer",
+      "description": "Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.",
+      "triggers": [
+        "analyze social media",
+        "calculate engagement rate",
+        "social media ROI",
+        "campaign performance",
+        "compare platforms",
+        "benchmark engagement",
+        "Instagram analytics",
+        "Facebook metrics",
+        "TikTok performance",
+        "LinkedIn engagement"
+      ],
+      "template": "[Describe what you need]",
+      "docs": "# How to Use This Skill\n\nHey Claude\u2014I just added the \"social-media-analyzer\" skill. Can you analyze this campaign's performance and give me actionable insights?\n\n## Example Invocations\n\n**Example 1:**\nHey Claude\u2014I just added the \"social-media-analyzer\" skill. Can you analyze this Instagram campaign data and tell me which posts performed best?\n\n**Example 2:**\nHey Claude\u2014I just added the \"social-media-analyzer\" skill. Can you calculate the ROI on this Facebook ad campaign with $1,200 spend?\n\n**Example 3:**\nHey Claude\u2014I just added the \"social-media-analyzer\" skill. Can you compare our engagement rates across Instagram, Facebook, and LinkedIn?\n\n## What to Provide\n\n- Social media campaign data (likes, comments, shares, reach, impressions)\n- Platform name (Instagram, Facebook, Twitter, LinkedIn, TikTok)\n- Ad spend amount (for ROI calculations)\n- Time period of the campaign\n- Post details (type, content, posting time - optional but helpful)\n\n## What You'll Get\n\n- **Campaign Performance Metrics**: Engagement rate, CTR, reach, impressions\n- **ROI Analysis**: Cost per engagement, cost per click, return on investment\n- **Benchmark Comparison**: How your campaign compares to industry standards\n- **Top Performing Posts**: Which content resonated most with your audience\n- **Actionable Recommendations**: Specific steps to improve future campaigns\n- **Visual Report**: Charts and graphs (Excel/PDF format)\n\n## Tips for Best Results\n\n1. **Include complete data**: More metrics = more accurate insights\n2. **Specify platform**: Different platforms have different benchmark standards\n3. **Provide context**: Mention campaign goals, target audience, or special events\n4. **Compare time periods**: Ask for month-over-month or campaign-to-campaign comparisons\n5. **Request specific analysis**: Focus on engagement, ROI, or specific metrics you care about\n",
+      "source": "marketplace"
+    },
+    {
+      "name": "social-media-manager",
+      "dir_name": "social-media-manager",
+      "description": "When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across platforms. Also use when the user mentions 'social media strategy,' 'social calendar,' 'community management,' 'social media plan,' 'grow followers,' 'engag",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "status",
+      "dir_name": "status",
+      "description": "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "strategic-alignment",
+      "dir_name": "strategic-alignment",
+      "description": "Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are pu",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "stress-test",
+      "dir_name": "stress-test",
+      "description": "/em -stress-test \u2014 Business Assumption Stress Testing",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "stripe-integration-expert",
+      "dir_name": "stripe-integration-expert",
+      "description": "Stripe Integration Expert",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "tdd-guide",
+      "dir_name": "tdd-guide",
+      "description": "Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or stu",
+      "triggers": [
+        "generate tests",
+        "analyze coverage",
+        "TDD workflow",
+        "red green refactor",
+        "Jest tests",
+        "Pytest tests",
+        "JUnit tests",
+        "coverage report"
+      ],
+      "template": "Requirements:\n- [REQUIREMENT_1]\n- [REQUIREMENT_2]\n- [REQUIREMENT_3]\n\nLanguage: [TypeScript / Python / Java]\nFramework: [Jest / Pytest / JUnit / Vitest]",
+      "docs": "# How to Use the TDD Guide Skill\n\nThe TDD Guide skill helps engineering teams implement Test Driven Development with intelligent test generation, coverage analysis, and workflow guidance.\n\n## Basic Usage\n\n### Generate Tests from Requirements\n\n```\n@tdd-guide\n\nI need to implement a user registration feature. Generate test cases for:\n- Email validation\n- Password strength checking\n- Duplicate email detection\n\nLanguage: TypeScript\nFramework: Jest\n```\n\n### Analyze Test Coverage\n\n```\n@tdd-guide\n\nAnalyze test coverage for my authentication module.\n\nCoverage report: coverage/lcov.info\nSource code: src/auth/\n\nIdentify gaps and prioritize improvements.\n```\n\n### Get TDD Workflow Guidance\n\n```\n@tdd-guide\n\nGuide me through TDD for implementing a shopping cart feature.\n\nRequirements:\n- Add items to cart\n- Update quantities\n- Calculate totals\n- Apply discount codes\n\nFramework: Pytest\n```\n\n## Example Invocations\n\n### Example 1: Generate Tests from Code\n\n```\n@tdd-guide\n\nGenerate comprehensive tests for this function:\n\n```typescript\nexport function calculateTax(amount: number, rate: number): number {\n  if (amount < 0) throw new Error('Amount cannot be negative');\n  if (rate < 0 || rate > 1) throw new Error('Rate must be between 0 and 1');\n  return Math.round(amount * rate * 100) / 100;\n}\n```\n\nInclude:\n- Happy path tests\n- Error cases\n- Boundary values\n- Edge cases\n```\n\n### Example 2: Improve Coverage\n\n```\n@tdd-guide\n\nMy coverage is at 65%. Help me get to 80%.\n\nCoverage report:\n[paste LCOV or JSON coverage data]\n\nSource files:\n- src/services/payment-processor.ts\n- src/services/order-validator.ts\n\nPrioritize critical paths.\n```\n\n### Example 3: Review Test Quality\n\n```\n@tdd-guide\n\nReview the quality of these tests:\n\n```python\ndef test_login():\n    result = login(\"user\", \"pass\")\n    assert result is not None\n    assert result.status == \"success\"\n    assert result.token != \"\"\n    assert len(result.permissions) > 0\n\ndef test_login_fails():\n    result = login(\"bad\", \"wrong\")\n    assert result is None\n```\n\nSuggest improvements for:\n- Test isolation\n- Assertion quality\n- Naming conventions\n- Test organization\n```\n\n### Example 4: Framework Migration\n\n```\n@tdd-guide\n\nConvert these Jest tests to Pytest:\n\n```javascript\ndescribe('Calculator', () => {\n  it('should add two numbers', () => {\n    const result = add(2, 3);\n    expect(result).toBe(5);\n  });\n\n  it('should handle negative numbers', () => {\n    const result = add(-2, 3);\n    expect(result).toBe(1);\n  });\n});\n```\n\nMaintain test structure and coverage.\n```\n\n### Example 5: Generate Test Fixtures\n\n```\n@tdd-guide\n\nGenerate realistic test fixtures for:\n\nEntity: User\nFields:\n- id (UUID)\n- email (valid format)\n- age (18-100)\n- role (admin, user, guest)\n\nGenerate 5 fixtures with edge cases:\n- Minimum age boundary\n- Maximum age boundary\n- Special characters in email\n```\n\n## What to Provide\n\n### For Test Generation\n- Source code (TypeScript, JavaScript, Python, or Java)\n- Requirements (user stories, API specs, or business rules)\n-",
+      "source": "marketplace"
+    },
+    {
+      "name": "tech-debt-tracker",
+      "dir_name": "tech-debt-tracker",
+      "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "# Tech Debt Tracker\n\nA comprehensive technical debt management system that helps engineering teams identify, prioritize, and track technical debt across codebases. This skill provides three interconnected tools for a complete debt management workflow.\n\n## Overview\n\nTechnical debt is like financial debt - it compounds over time and reduces team velocity if not managed systematically. This skill provides:\n\n- **Automated Debt Detection**: Scan codebases to identify various types of technical debt\n- **Intelligent Prioritization**: Use proven frameworks to prioritize debt based on business impact\n- **Trend Analysis**: Track debt evolution over time with executive-friendly dashboards\n\n## Tools\n\n### 1. Debt Scanner (`debt_scanner.py`)\n\nScans codebases to automatically detect technical debt signals using AST parsing for Python and regex patterns for other languages.\n\n**Features:**\n- Detects 15+ types of technical debt (large functions, complexity, duplicates, security issues, etc.)\n- Multi-language support (Python, JavaScript, Java, C#, Go, etc.)\n- Configurable thresholds and rules\n- Dual output: JSON for tools, human-readable for reports\n\n**Usage:**\n```bash\n# Basic scan\npython scripts/debt_scanner.py /path/to/codebase\n\n# With custom config and output\npython scripts/debt_scanner.py /path/to/codebase --config config.json --output report.json\n\n# Different output formats\npython scripts/debt_scanner.py /path/to/codebase --format both\n```\n\n### 2. Debt Prioritizer (`debt_prioritizer.py`)\n\nTakes debt inventory and creates prioritized backlog using proven prioritization frameworks.\n\n**Features:**\n- Multiple prioritization frameworks (Cost of Delay, WSJF, RICE)\n- Business impact analysis with ROI calculations  \n- Sprint allocation recommendations\n- Effort estimation with risk adjustment\n- Executive and engineering reports\n\n**Usage:**\n```bash\n# Basic prioritization\npython scripts/debt_prioritizer.py debt_inventory.json\n\n# Custom framework and team size\npython scripts/debt_prioritizer.py inventory.json --framework wsjf --team-size 8\n\n# Sprint capacity planning\npython scripts/debt_prioritizer.py inventory.json --sprint-capacity 80 --output backlog.json\n```\n\n### 3. Debt Dashboard (`debt_dashboard.py`)\n\nAnalyzes historical debt data to provide trend analysis, health scoring, and executive reporting.\n\n**Features:**\n- Health score trending over time\n- Debt velocity analysis (accumulation vs resolution)\n- Executive summary with business impact\n- Forecasting based on current trends\n- Strategic recommendations\n\n**Usage:**\n```bash\n# Single directory of scans\npython scripts/debt_dashboard.py --input-dir ./debt_scans/\n\n# Multiple specific files\npython scripts/debt_dashboard.py scan1.json scan2.json scan3.json\n\n# Custom analysis period\npython scripts/debt_dashboard.py data.json --period quarterly --team-size 6\n```\n\n## Quick Start\n\n### 1. Scan Your Codebase\n\n```bash\n# Scan your project\npython scripts/debt_scanner.py ~/my-project --output initial_scan.json\n\n# Review the results\n",
+      "source": "marketplace"
+    },
+    {
+      "name": "tech-stack-evaluator",
+      "dir_name": "tech-stack-evaluator",
+      "description": "Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "testrail",
+      "dir_name": "testrail",
+      "description": ">-",
+      "triggers": [],
+      "template": "",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ui-design-system",
+      "dir_name": "ui-design-system",
+      "description": "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "ux-researcher-designer",
+      "dir_name": "ux-researcher-designer",
+      "description": "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.",
+      "triggers": [],
+      "template": "[Describe what you need]",
+      "docs": "",
+      "source": "marketplace"
+    },
+    {
+      "name": "video-generator",
+      "dir_name": "video-generator",
+      "description": "Generate videos using Wan 2.2 via GPU server. Text-to-video, image-to-video, and storyboards. Use when asked to create or generate a video.",
+      "triggers": [
+        "generate video",
+        "create video",
+        "animate",
+        "storyboard"
+      ],
+      "template": "Motion: [DESCRIBE THE MOTION \u2014 camera movement, subject action]\nType: [t2v / i2v / storyboard]\nSource image: [path for i2v, or \"none\" for t2v]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "x-articles",
+      "dir_name": "x-articles",
+      "description": "Publish viral X (Twitter) Articles with AI. Long-form content that gets engagement. Proven hook patterns, browser automation. Works with Claude, Cursor, OpenClaw.",
+      "triggers": [],
+      "template": "Topic: [TOPIC]\nAngle: [hot take / explainer / story / thread-to-article]\nCTA: [optional call to action]",
+      "docs": "",
+      "source": "fleet"
+    },
+    {
+      "name": "youtube-analyzer",
+      "dir_name": "youtube-analyzer",
+      "description": "Extract transcripts and analyze YouTube videos using yt-dlp. Auto-triggers on YouTube URLs.",
+      "triggers": [
+        "youtube",
+        "analyze video",
+        "video transcript"
+      ],
+      "template": "URL: [YOUTUBE_URL]\nMode: [summary / value-extract / wisdom / full]",
+      "docs": "",
+      "source": "fleet"
+    }
+  ],
+  "count": 195
+}
