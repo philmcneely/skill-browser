@@ -19,6 +19,20 @@ custom_dir, mp_dir, templates_dir, out_file = sys.argv[1:5]
 skills = []
 seen = set()
 
+# Sanitize internal infra names for public site
+SANITIZE = {
+    "on HAL9000": "via GPU server",
+    "HAL9000": "GPU server",
+    "Kokoro": "local TTS",
+    "VibeVoice": "cloned voice TTS",
+    "Mac Studio": "inference server",
+}
+
+def sanitize(text):
+    for old, new in SANITIZE.items():
+        text = text.replace(old, new)
+    return text
+
 def parse_frontmatter(content):
     meta = {}
     if content.startswith("---"):
@@ -74,24 +88,34 @@ def add_skill(skill_dir, source):
             lines = f.readlines()
             template = "".join(lines[2:]).strip()
 
-    # Docs (HOW_TO_USE > README)
-    docs = ""
-    for doc_name in ["HOW_TO_USE.md", "README.md"]:
-        dp = os.path.join(skill_dir, doc_name)
-        if os.path.isfile(dp):
-            with open(dp) as f:
-                docs = f.read()[:3000]
-            break
+    # Docs — collect ALL available docs separately
+    how_to_use = ""
+    readme = ""
+    htu_path = os.path.join(skill_dir, "HOW_TO_USE.md")
+    readme_path = os.path.join(skill_dir, "README.md")
+    if os.path.isfile(htu_path):
+        with open(htu_path) as f:
+            how_to_use = f.read()[:4000]
+    if os.path.isfile(readme_path):
+        with open(readme_path) as f:
+            readme = f.read()[:4000]
 
-    skills.append({
+    entry = {
         "name": skill_name,
         "dir_name": name,
-        "description": description[:300],
+        "description": sanitize(description[:300]),
         "triggers": triggers,
-        "template": template,
-        "docs": docs,
+        "template": sanitize(template),
         "source": source,
-    })
+    }
+
+    # Only include non-empty doc fields
+    if how_to_use:
+        entry["how_to_use"] = sanitize(how_to_use)
+    if readme:
+        entry["readme"] = sanitize(readme)
+
+    skills.append(entry)
 
 # Custom skills
 if os.path.isdir(custom_dir):

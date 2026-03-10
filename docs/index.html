@@ -100,6 +100,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  .card-footer { display: flex; justify-content: space-between; align-items: center; }
   .triggers { display: flex; flex-wrap: wrap; gap: 4px; }
   .trigger-tag {
     font-size: 11px;
@@ -107,6 +108,15 @@
     background: rgba(88,166,255,0.1);
     color: var(--accent);
     border-radius: 4px;
+  }
+  .doc-indicators { display: flex; gap: 4px; flex-shrink: 0; }
+  .doc-dot {
+    font-size: 10px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background: rgba(63,185,80,0.15);
+    color: var(--green);
+    font-weight: 500;
   }
 
   /* Modal */
@@ -183,6 +193,7 @@
     border-radius: 6px;
     padding: 6px 12px;
     margin-bottom: 8px;
+    margin-right: 6px;
     -webkit-appearance: none;
   }
   .docs-box {
@@ -265,14 +276,25 @@ function render(){
     var d=document.createElement('div');d.className='card-desc';d.textContent=s.description;
     c.appendChild(d);
 
+    var footer=document.createElement('div');footer.className='card-footer';
+
+    var tr=document.createElement('div');tr.className='triggers';
     if(s.triggers&&s.triggers.length){
-      var tr=document.createElement('div');tr.className='triggers';
       s.triggers.slice(0,4).forEach(function(t){
         var tg=document.createElement('span');tg.className='trigger-tag';tg.textContent=t;
         tr.appendChild(tg);
       });
-      c.appendChild(tr);
     }
+    footer.appendChild(tr);
+
+    var has_docs=s.how_to_use||s.readme;
+    if(has_docs){
+      var dots=document.createElement('div');dots.className='doc-indicators';
+      if(s.how_to_use){var dd=document.createElement('span');dd.className='doc-dot';dd.textContent='HOW TO';dots.appendChild(dd)}
+      if(s.readme){var dr=document.createElement('span');dr.className='doc-dot';dr.textContent='README';dots.appendChild(dr)}
+      footer.appendChild(dots);
+    }
+    c.appendChild(footer);
     g.appendChild(c);
   });
 }
@@ -305,15 +327,18 @@ function open_skill(i){
   var pre=document.createElement('pre');pre.textContent=txt;
   box.appendChild(cb);box.appendChild(pre);m.appendChild(box);
 
-  if(s.docs){
-    var db=document.createElement('button');db.className='docs-btn';db.textContent='Show Docs';
-    var dc=document.createElement('div');dc.className='docs-box';dc.textContent=s.docs;
+  function add_doc_section(label, content) {
+    var db=document.createElement('button');db.className='docs-btn';db.textContent=label;
+    var dc=document.createElement('div');dc.className='docs-box';dc.textContent=content;
     db.addEventListener('click',function(){
       dc.classList.toggle('show');
-      db.textContent=dc.classList.contains('show')?'Hide Docs':'Show Docs';
+      db.textContent=dc.classList.contains('show')?'Hide '+label.replace('Show ',''):label;
     });
     m.appendChild(db);m.appendChild(dc);
   }
+
+  if(s.how_to_use) add_doc_section('Show How To Use', s.how_to_use);
+  if(s.readme) add_doc_section('Show README', s.readme);
 
   ov.appendChild(m);
 }
