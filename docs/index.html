@@ -287,11 +287,12 @@ function render(){
     }
     footer.appendChild(tr);
 
-    var has_docs=s.how_to_use||s.readme;
+    var has_docs=s.how_to_use||s.readme||s.skill_guide;
     if(has_docs){
       var dots=document.createElement('div');dots.className='doc-indicators';
       if(s.how_to_use){var dd=document.createElement('span');dd.className='doc-dot';dd.textContent='HOW TO';dots.appendChild(dd)}
       if(s.readme){var dr=document.createElement('span');dr.className='doc-dot';dr.textContent='README';dots.appendChild(dr)}
+      if(s.skill_guide){var ds=document.createElement('span');ds.className='doc-dot';ds.textContent='GUIDE';dots.appendChild(ds)}
       footer.appendChild(dots);
     }
     c.appendChild(footer);
@@ -339,6 +340,7 @@ function open_skill(i){
 
   if(s.how_to_use) add_doc_section('Show How To Use', s.how_to_use);
   if(s.readme) add_doc_section('Show README', s.readme);
+  if(s.skill_guide) add_doc_section('Show Skill Guide', s.skill_guide);
 
   ov.appendChild(m);
 }
